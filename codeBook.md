@@ -7,7 +7,7 @@ how these datasets were created.
 ## Variables in datasets
 ### ID variables:
 subject: subjectID
-activity: performed activity ("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+activity: performed activity ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
 set: whether the data was gathered from the test or train session
 
 ### Value variables
