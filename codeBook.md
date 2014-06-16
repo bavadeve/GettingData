@@ -55,34 +55,34 @@ The set of variables that were estimated from these signals are:
 - std: Standard deviation
 
 ### Process of cleaning the original data set
-The original data can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Please, check the README file supplied with the original dataset for information regarding the files in that 
+The original data can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+Please check the README file supplied with the original dataset for information regarding the files in that 
 dataset.
 
 The _run_analysis.R_ file performs the following steps
 1. Checks whether the dataset is present in the working directory. If not, the data is downloaded 
 from aformentioned link to "./Smartphones.zip" and unzipped. The original .zip-file is then deleted
 
-2. Loads the data ('X_train.txt'), subjectID ('subject_train.txt') and activityID ('y_train.txt') files into
+2. Loads the data (_X_train.txt_), subjectID (_subject_train.txt_) and activityID (_y_train.txt_) files into
 R and cbinds these together with a column setting this data to train date, creating the train dataframe
 
 3. This process is repeated with the test data, creating a seperate test dataframe
 
 4. The two dataframes are merged into the variable firstDataSet by binding the rows together
 
-5. Variable names are loaded from './features.txt' and used as colnames for the dataframe
+5. Variable names are loaded from _features.txt_ and used as colnames for the dataframe
 
 6. Dataframe is cleaned by removing all, but the value variables of interest(mean() & std())
 
-7. The activityID is labelled according to './activity_labels.txt'
+7. The activityID is labelled according to _activity_labels.txt_
 
 8. firstDataSet variable names are cleaned by removing all instances of hyphen and brackets 
 
-9. firstDataSet is saved into 'firstDataSet.txt' for future use
+9. firstDataSet is saved into _firstDataSet.txt_ for future use
 
 10. secondDataSet is created by averaging each activity for each subject
 
-11. secondDataSet is saved into 'secondDataSet.txt' for future use
+11. secondDataSet is saved into _secondDataSet.txt_ for future use
 
 
 
