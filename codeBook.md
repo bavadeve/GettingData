@@ -4,13 +4,13 @@ Bauke van der Velde
 This codebook describes the variables in the two supplied datasets and explains
 how these datasets were created.
 
-## Variables in datasets
-### ID variables:
-subject: subjectID
-activity: performed activity ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
-set: whether the data was gathered from the test or train session
+### Variables in datasets
+#### ID variables:
+- subject: subjectID
+- activity: performed activity ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
+- set: whether the data was gathered from the test or train session
 
-### Value variables
+#### Value variables
 The features selected for this database come from the accelerometer and gyroscope 
 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) 
 were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 
@@ -31,30 +31,30 @@ fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fB
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAccXYZ
-tGravityAccXYZ
-tBodyAccJerkXYZ
-tBodyGyroXYZ
-tBodyGyroJerkXYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAccXYZ
-fBodyAccJerkXYZ
-fBodyGyroXYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAccXYZ
+- tGravityAccXYZ
+- tBodyAccJerkXYZ
+- tBodyGyroXYZ
+- tBodyGyroJerkXYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAccXYZ
+- fBodyAccJerkXYZ
+- fBodyGyroXYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean: Mean value
-std: Standard deviation
+- mean: Mean value
+- std: Standard deviation
 
-## Process of cleaning the original data set
+### Process of cleaning the original data set
 The original data can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Please, check the README file supplied with the original dataset for information regarding the files in that 
 dataset.
