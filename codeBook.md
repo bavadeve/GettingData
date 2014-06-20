@@ -8,7 +8,7 @@ how these datasets were created.
 #### ID variables:
 - subject: subjectID
 - activity: performed activity ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
-- set: whether the data was gathered from the test or train session
+- session: whether the data was gathered from the test or train session
 
 #### Value variables
 The features selected for this database come from the accelerometer and gyroscope 
@@ -60,6 +60,7 @@ Please check the README file supplied with the original dataset for information 
 dataset.
 
 The _run_analysis.R_ file performs the following steps
+
 1. Checks whether the dataset is present in the working directory. If not, the data is downloaded 
 from aformentioned link to "./Smartphones.zip" and unzipped. The original .zip-file is then deleted
 
