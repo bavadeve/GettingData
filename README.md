@@ -19,5 +19,3 @@ The 'run_analysis.R' gives the following output
 	- secondDataSet.txt
 
 For the exact workings of the *run_analysis.R* script, please refer to _codebook.md_
-
-TEST
