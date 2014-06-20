@@ -18,5 +18,5 @@ The 'run_analysis.R' gives the following output
 	- firstDataSet.txt
 	- secondDataSet.txt
 
-For the exact workings of the __run_analysis.R__ script, please refer to _codebook.md_
+For the exact workings of the *run_analysis.R* script, please refer to _codebook.md_
 
